@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Thinking Lab" },
+      { name: "description", content: "Thinking Lab is a responsive web app that teaches cognitive biases and improves decision-making." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Thinking Lab" },
+      { property: "og:description", content: "Thinking Lab is a responsive web app that teaches cognitive biases and improves decision-making." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Thinking Lab" },
+      { name: "twitter:description", content: "Thinking Lab is a responsive web app that teaches cognitive biases and improves decision-making." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b2ed222c-7dde-4fd4-8edc-5e11121e9a1f/id-preview-c2b9eee3--9f96653b-4fba-4f6f-b05d-c2b4d438424e.lovable.app-1778563080762.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/b2ed222c-7dde-4fd4-8edc-5e11121e9a1f/id-preview-c2b9eee3--9f96653b-4fba-4f6f-b05d-c2b4d438424e.lovable.app-1778563080762.png" },
     ],
     links: [
       {
