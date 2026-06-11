@@ -15,11 +15,11 @@ export const Route = createFileRoute("/")({
         content:
           "A calm sandbox for understanding System 1 vs System 2, spotting cognitive biases, and improving everyday judgment.",
       },
-      { property: "og:title", content: "Thinking Lab" },
+      { property: "og:title", content: "Thinking Lab — Practice fast and slow thinking" },
       {
         property: "og:description",
         content:
-          "Practice fast and slow thinking. Spot biases. Improve decisions.",
+          "A calm sandbox for understanding System 1 vs System 2, spotting cognitive biases, and improving everyday judgment.",
       },
     ],
   }),
