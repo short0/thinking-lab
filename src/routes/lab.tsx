@@ -105,7 +105,9 @@ function LabPage() {
         </div>
       </div>
 
-      <main className="mx-auto grid max-w-7xl gap-6 px-4 py-6 lg:grid-cols-[260px_minmax(0,1fr)_320px]">
+      <main className="mx-auto max-w-7xl px-4 py-6">
+        <h1 className="sr-only">Decision Sandbox</h1>
+        <div className="grid gap-6 lg:grid-cols-[260px_minmax(0,1fr)_320px]">
         {/* Left panel */}
         <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
           <Panel title="Presets">
