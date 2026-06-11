@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thinking-lab-playground.lovable.app/sitemap.xml

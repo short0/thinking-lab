@@ -1,0 +1,11 @@
+# Thinking Lab
+
+> A calm sandbox for practicing System 1 vs System 2 thinking, spotting cognitive biases, and improving everyday judgment. Inspired by Daniel Kahneman's *Thinking, Fast and Slow*.
+
+Thinking Lab walks you through real decisions twice — first with your gut, then with a slower, more deliberate pass — then reveals the bias hiding in the gap. Built-in scenarios cover hiring, investing, project estimates, and probability puzzles.
+
+## Pages
+
+- [Home](/): Overview, preset scenarios, and how the Lab works.
+- [Lab](/lab): Interactive workspace to capture fast and slow answers and reveal the bias.
+- [About](/about): Plain-language intro to System 1 vs System 2 and four common biases.
