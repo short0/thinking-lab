@@ -407,6 +407,7 @@ function AnswerStep({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Type your answer…"
+        aria-label={label}
         className="mt-3 min-h-[80px] resize-none text-sm"
       />
       <div className="mt-3">
