@@ -135,6 +135,7 @@ function LabPage() {
               value={present.scenario}
               onChange={(e) => setScenario(e.target.value)}
               placeholder="Describe a decision you're weighing…"
+              aria-label="Scenario description"
               className="min-h-[110px] resize-none text-sm"
             />
           </Panel>
