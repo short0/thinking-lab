@@ -303,6 +303,7 @@ function LabPage() {
             </Panel>
           )}
         </aside>
+        </div>
       </main>
     </div>
   );
