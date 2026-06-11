@@ -105,7 +105,9 @@ function LabPage() {
         </div>
       </div>
 
-      <main className="mx-auto grid max-w-7xl gap-6 px-4 py-6 lg:grid-cols-[260px_minmax(0,1fr)_320px]">
+      <main className="mx-auto max-w-7xl px-4 py-6">
+        <h1 className="sr-only">Decision Sandbox</h1>
+        <div className="grid gap-6 lg:grid-cols-[260px_minmax(0,1fr)_320px]">
         {/* Left panel */}
         <aside className="space-y-6 lg:sticky lg:top-28 lg:self-start">
           <Panel title="Presets">
@@ -133,6 +135,7 @@ function LabPage() {
               value={present.scenario}
               onChange={(e) => setScenario(e.target.value)}
               placeholder="Describe a decision you're weighing…"
+              aria-label="Scenario description"
               className="min-h-[110px] resize-none text-sm"
             />
           </Panel>
@@ -301,6 +304,7 @@ function LabPage() {
             </Panel>
           )}
         </aside>
+        </div>
       </main>
     </div>
   );
@@ -403,6 +407,7 @@ function AnswerStep({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         placeholder="Type your answer…"
+        aria-label={label}
         className="mt-3 min-h-[80px] resize-none text-sm"
       />
       <div className="mt-3">
